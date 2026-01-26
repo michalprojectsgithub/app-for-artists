@@ -78,12 +78,12 @@ img {
   font-weight: 600;
 }
 
-.brand-dot {
-  width: 14px;
-  height: 14px;
-  border-radius: 50%;
-  background: linear-gradient(135deg, var(--accent), #5bb0ff);
-  box-shadow: 0 0 18px rgba(124, 111, 242, 0.5);
+.brand-logo {
+  width: 28px;
+  height: 28px;
+  border-radius: 8px;
+  object-fit: cover;
+  box-shadow: 0 0 18px rgba(124, 111, 242, 0.45);
 }
 
 .brand-name {
