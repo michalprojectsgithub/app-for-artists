@@ -117,7 +117,8 @@ img {
 
 .hero {
   padding: 92px 0 72px;
-  background: radial-gradient(circle at top left, rgba(124, 111, 242, 0.18), transparent 55%),
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.38), rgba(0, 0, 0, 0.58)),
+    radial-gradient(circle at top left, rgba(124, 111, 242, 0.18), transparent 55%),
     radial-gradient(circle at 15% 25%, rgba(91, 176, 255, 0.16), transparent 50%),
     var(--bg-app);
 }
@@ -387,7 +388,22 @@ h1 {
   box-shadow: var(--shadow-soft);
 }
 
+.extension-options {
+  background: var(--bg-surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 24px;
+  display: grid;
+  gap: 14px;
+  box-shadow: var(--shadow-soft);
+}
+
 .extension-steps h3 {
+  margin: 0 0 4px;
+  font-size: 20px;
+}
+
+.extension-options h3 {
   margin: 0 0 4px;
   font-size: 20px;
 }
@@ -402,7 +418,25 @@ h1 {
   border: 1px solid var(--border-subtle);
 }
 
+.extension-option {
+  background: var(--bg-surface-raised);
+  border-radius: var(--radius-md);
+  padding: 12px 14px;
+  border: 1px solid var(--border-subtle);
+}
+
+.extension-option h4 {
+  margin: 0 0 6px;
+  font-size: 16px;
+}
+
 .extension-step p {
+  margin: 0;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.extension-option p {
   margin: 0;
   color: var(--text-secondary);
   font-size: 14px;
