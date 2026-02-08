@@ -151,6 +151,16 @@ h1 {
   margin-bottom: 24px;
 }
 
+.notice {
+  margin: 0 0 20px;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  background: rgba(124, 111, 242, 0.12);
+  border: 1px solid rgba(124, 111, 242, 0.25);
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -242,6 +252,14 @@ h1 {
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-strong);
   overflow: hidden;
+}
+
+.hero-video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  display: block;
+  background: #0f1218;
 }
 
 .mockup-top {
@@ -364,6 +382,7 @@ h1 {
   align-items: center;
   justify-content: space-between;
   gap: 16px;
+  margin-bottom: 16px;
   box-shadow: var(--shadow-soft);
 }
 
