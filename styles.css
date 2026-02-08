@@ -256,10 +256,11 @@ h1 {
 
 .hero-video {
   width: 100%;
-  height: auto;
+  height: 100%;
   aspect-ratio: 16 / 9;
   display: block;
   background: #0f1218;
+  border: 0;
 }
 
 .mockup-top {
